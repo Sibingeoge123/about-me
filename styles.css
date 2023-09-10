@@ -136,8 +136,14 @@ h1 {
 
 .i_styles {
     color: white;
-    transition: 0.7s;
+    /* transition: 0.7s; */
     font-size: 3rem;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.i_styles:hover {
+    transform: scale(1.6);
 }
 
 .skills_wrapper {
@@ -185,4 +191,28 @@ h1 {
 .padding_top_70 {
     padding-top: 70px;
 
+}
+
+
+.icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Styling for the icon itself */
+.icon {
+    display: none;
+    position: absolute;
+    top: -30px; /* Adjust this value to control the icon's distance from the element */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* When hovering over the icon container, show the icon */
+.icon-container:hover .icon {
+    display: block;
 }
