@@ -162,3 +162,22 @@ h1 {
     font-size: 1.5rem;
     text-align: center;
 }
+
+.button {
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding: 0 1rem;
+    margin: 0 0.3rem 1.2rem 0;
+    background: #d8d8d8;
+    color: #313131;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #313131;
+}
+
+.padding_top_70 {
+    padding-top: 70px;
+
+}
