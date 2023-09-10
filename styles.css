@@ -1,0 +1,164 @@
+body {
+    background: #151515;
+    font-family: "lora-regular", serif;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color: #6e6e6e;
+}
+
+.section_1 {
+    background: #151515 url(./assests/bgm_6.jpg) no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: calc(100vh);
+    min-height: 720px;
+    display: table;
+    position: relative;
+    text-align: center;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    transform: translateY(-2.1rem);
+}
+
+.row {
+    width: 94%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.name {
+    width: 100%;
+}
+
+h1 {
+    font-size: 84px;
+    color: #FFFFFF;
+    font-family: "poppins-medium", sans-serif;
+    font-size: 7.4rem;
+    line-height: 1.071;
+    max-width: 900px;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.position {
+    font-family: "lora-regular", serif;
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: #FFFFFF;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.section_2 {
+    background: #FFFFFF;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+}
+
+.about_wrapper {
+    margin-bottom: 3rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 3.6rem;
+    position: relative;
+}
+
+.about_info {
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+.description {
+    text-align: left;
+    padding-left: 5rem;
+    font-family: "lora-regular", serif;
+    line-height: 1.8;
+    color: #888888;
+}
+
+.photo {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+}
+
+.myself {
+    font-family: "poppins-semibold", serif;
+    font-size: 2.6rem;
+    color: #313131;
+    line-height: 1.25;
+    margin-bottom: 1.2rem;
+}
+
+.section_3 {
+    background: #313131 url(./assests/bgm_8.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 7rem;
+    color: white;
+    position: relative;
+}
+
+.skills {
+    font-family: "poppins-semibold", serif;
+    font-size: 3.6rem;
+    color: orange;
+    line-height: 1.25;
+    margin-bottom: 7.2rem;
+}
+
+.ul_styles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.li_styles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.i_styles {
+    color: white;
+    transition: 0.7s;
+    font-size: 3rem;
+}
+
+.skills_wrapper {
+    margin-bottom: 3rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 3.6rem;
+    position: relative;
+}
+
+.section_4 {
+    background: #151515;
+    padding-top: 8rem;
+    padding-bottom: 15rem;
+}
+
+.contact_wrapper {
+    font-family: "poppins-regular", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
